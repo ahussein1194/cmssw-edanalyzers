@@ -70,8 +70,8 @@ process.source.lumisToProcess = CfgTypes.untracked(CfgTypes.VLuminosityBlockRang
 process.source.lumisToProcess.extend(myLumis)
 
 # Configure the Electron Analyzer.
-# Load the analyzer default parameters from the _cfi file.
-process.load("my_EDAnalyzers.Electron_Analyzer.CfiFile_cfi")
+# Load the analyzer default parameters from the _cff file (taken from _cfi file).
+process.load("my_EDAnalyzers.Electron_Analyzer.CffFile_cff")
 # Change the default value of the parameter "testBool".
 # You can even initialize new parameters in additional to those in the _cfi file.
 process.myelectrons.testBool = cms.bool(True)
