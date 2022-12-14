@@ -1,0 +1,11 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="DataFormats/PatCandidates"/>
+<use name="CommonTools/UtilAlgos"/>
+<!--<use name="FWCore/ServiceRegistry"/>-->
+<use name="FWCore/ServiceRegistry"/>
+<use name="TrackingTools/TransientTrack"/>
+<use name="TrackingTools/IPTools"/>
+<!--<use name="DataFormats/GeometryCommonDetAlgo"/>-->
+<flags EDM_PLUGIN="1"/>
