@@ -1,4 +1,4 @@
 - All the configuration parameters are passed in the `_cfg` file.
 - No `fillDescriptions()` usage.
-- No `_cfi` usage for default values.
+- `_cfi` usage for default values.
 - NO `_cff` file usage.

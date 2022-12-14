@@ -1,1 +1,2 @@
-Run2 data use the `miniAOD` format.
+- Run2 data use the `miniAOD` format.
+- CMSSW version: `CMSSW_7_6_7`.
