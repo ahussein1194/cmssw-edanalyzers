@@ -35,7 +35,7 @@ process = cms.Process("Muon")
 # https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideMessageLogger
 process.load("FWCore.MessageService.MessageLogger_cfi")
 process.MessageLogger.cerr.threshold = "WARNING"
-process.MessageLogger.categories.append("Electron")
+process.MessageLogger.categories.append("Muon")
 process.MessageLogger.cerr.INFO = cms.untracked.PSet(
     limit=cms.untracked.int32(-1)
 )
